@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  public perros<String>;
+
+  constructor(){
+    this.perros = ['Lazy','Puddle','Doberman'];
+  }
 }
